@@ -90,7 +90,8 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(Arrays.asList(
             "http://localhost:5173", 
             "http://localhost:5177",
-            "http://localhost:3000"
+            "http://localhost:3000",
+            "https://athukorala-traders-frontend.vercel.app"
         )); // Allow frontend origins
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
