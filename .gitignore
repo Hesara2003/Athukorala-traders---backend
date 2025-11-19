@@ -34,3 +34,9 @@ build/
 
 ### Environment Variables ###
 .env*
+
+### ignore docker-container files ###
+docker-compose.override.yml
+docker-compose.dev.yml
+docker-compose.prod.yml
+docker-compose.yml
